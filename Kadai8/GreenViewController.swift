@@ -11,8 +11,11 @@ class GreenViewController: UIViewController {
     
     @IBOutlet private weak var greenLabel: UILabel!
     @IBOutlet private weak var sender: UISlider!
-    private let delegate = UIApplication.shared.delegate as! AppDelegate
     
+    private var delegate: AppDelegate {
+        UIApplication.shared.delegate as! AppDelegate
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         greenLabel.text = String(delegate.value)
