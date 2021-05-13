@@ -11,7 +11,10 @@ class RedViewController: UIViewController {
 
     @IBOutlet private weak var redLabel: UILabel!
     @IBOutlet private weak var slider: UISlider!
-    private let delegate = UIApplication.shared.delegate as! AppDelegate
+
+    private var delegate: AppDelegate {
+        UIApplication.shared.delegate as! AppDelegate
+    }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
