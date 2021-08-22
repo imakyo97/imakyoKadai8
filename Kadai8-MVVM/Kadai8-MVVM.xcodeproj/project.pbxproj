@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33599011CF51F6F8235B5C04 /* Pods_Kadai8_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB45403B5440DF1DC1EE8A71 /* Pods_Kadai8_MVVM.framework */; };
 		4786DD2726D12B8600409285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD2626D12B8600409285 /* AppDelegate.swift */; };
 		4786DD2926D12B8600409285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD2826D12B8600409285 /* SceneDelegate.swift */; };
-		4786DD2B26D12B8600409285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD2A26D12B8600409285 /* ViewController.swift */; };
 		4786DD2E26D12B8600409285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4786DD2C26D12B8600409285 /* Main.storyboard */; };
 		4786DD3026D12B8700409285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4786DD2F26D12B8700409285 /* Assets.xcassets */; };
 		4786DD3326D12B8700409285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4786DD3126D12B8700409285 /* LaunchScreen.storyboard */; };
+		4786DD3B26D12D1800409285 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD3A26D12D1800409285 /* RedViewController.swift */; };
+		4786DD4026D12E2500409285 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD3F26D12E2500409285 /* GreenViewController.swift */; };
+		4786DD4226D12E3C00409285 /* GreenVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4786DD4126D12E3C00409285 /* GreenVC.storyboard */; };
+		4786DD4426D135A900409285 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4326D135A900409285 /* Slider.swift */; };
+		4786DD4626D1367D00409285 /* RedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4526D1367D00409285 /* RedViewModel.swift */; };
+		4786DD4826D1429800409285 /* GreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4726D1429800409285 /* GreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		219EC07B52A8EFD4446C8FAF /* Pods-Kadai8-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai8-MVVM.release.xcconfig"; path = "Target Support Files/Pods-Kadai8-MVVM/Pods-Kadai8-MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		4786DD2326D12B8600409285 /* Kadai8-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai8-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4786DD2626D12B8600409285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4786DD2826D12B8600409285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4786DD2A26D12B8600409285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4786DD2D26D12B8600409285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4786DD2F26D12B8700409285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4786DD3226D12B8700409285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4786DD3426D12B8700409285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4786DD3A26D12D1800409285 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		4786DD3F26D12E2500409285 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		4786DD4126D12E3C00409285 /* GreenVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GreenVC.storyboard; sourceTree = "<group>"; };
+		4786DD4326D135A900409285 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		4786DD4526D1367D00409285 /* RedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewModel.swift; sourceTree = "<group>"; };
+		4786DD4726D1429800409285 /* GreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewModel.swift; sourceTree = "<group>"; };
+		7C8CC94CF5F03AE0DAC1A4FC /* Pods-Kadai8-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai8-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-Kadai8-MVVM/Pods-Kadai8-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		EB45403B5440DF1DC1EE8A71 /* Pods_Kadai8_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai8_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33599011CF51F6F8235B5C04 /* Pods_Kadai8_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DA35E38A6AB52FEF92D9C52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB45403B5440DF1DC1EE8A71 /* Pods_Kadai8_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4786DD1A26D12B8600409285 = {
 			isa = PBXGroup;
 			children = (
 				4786DD2526D12B8600409285 /* Kadai8-MVVM */,
 				4786DD2426D12B8600409285 /* Products */,
+				9805BD15366D0C0466394519 /* Pods */,
+				2DA35E38A6AB52FEF92D9C52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,53 @@
 		4786DD2526D12B8600409285 /* Kadai8-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				4786DD3C26D12D2D00409285 /* Model */,
+				4786DD3E26D12D9400409285 /* ViewModel */,
+				4786DD3D26D12D3500409285 /* View */,
 				4786DD2626D12B8600409285 /* AppDelegate.swift */,
 				4786DD2826D12B8600409285 /* SceneDelegate.swift */,
-				4786DD2A26D12B8600409285 /* ViewController.swift */,
-				4786DD2C26D12B8600409285 /* Main.storyboard */,
 				4786DD2F26D12B8700409285 /* Assets.xcassets */,
 				4786DD3126D12B8700409285 /* LaunchScreen.storyboard */,
 				4786DD3426D12B8700409285 /* Info.plist */,
 			);
 			path = "Kadai8-MVVM";
+			sourceTree = "<group>";
+		};
+		4786DD3C26D12D2D00409285 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4786DD4326D135A900409285 /* Slider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4786DD3D26D12D3500409285 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4786DD3A26D12D1800409285 /* RedViewController.swift */,
+				4786DD2C26D12B8600409285 /* Main.storyboard */,
+				4786DD3F26D12E2500409285 /* GreenViewController.swift */,
+				4786DD4126D12E3C00409285 /* GreenVC.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4786DD3E26D12D9400409285 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4786DD4526D1367D00409285 /* RedViewModel.swift */,
+				4786DD4726D1429800409285 /* GreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9805BD15366D0C0466394519 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C8CC94CF5F03AE0DAC1A4FC /* Pods-Kadai8-MVVM.debug.xcconfig */,
+				219EC07B52A8EFD4446C8FAF /* Pods-Kadai8-MVVM.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4786DD3726D12B8700409285 /* Build configuration list for PBXNativeTarget "Kadai8-MVVM" */;
 			buildPhases = (
+				940C9D2E12DEBE0628C747D3 /* [CP] Check Pods Manifest.lock */,
 				4786DD1F26D12B8600409285 /* Sources */,
 				4786DD2026D12B8600409285 /* Frameworks */,
 				4786DD2126D12B8600409285 /* Resources */,
+				6D5BF90A5868E779408977D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +192,66 @@
 				4786DD3326D12B8700409285 /* LaunchScreen.storyboard in Resources */,
 				4786DD3026D12B8700409285 /* Assets.xcassets in Resources */,
 				4786DD2E26D12B8600409285 /* Main.storyboard in Resources */,
+				4786DD4226D12E3C00409285 /* GreenVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D5BF90A5868E779408977D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai8-MVVM/Pods-Kadai8-MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai8-MVVM/Pods-Kadai8-MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kadai8-MVVM/Pods-Kadai8-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940C9D2E12DEBE0628C747D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai8-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4786DD1F26D12B8600409285 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4786DD2B26D12B8600409285 /* ViewController.swift in Sources */,
+				4786DD4826D1429800409285 /* GreenViewModel.swift in Sources */,
+				4786DD4626D1367D00409285 /* RedViewModel.swift in Sources */,
+				4786DD4026D12E2500409285 /* GreenViewController.swift in Sources */,
 				4786DD2726D12B8600409285 /* AppDelegate.swift in Sources */,
+				4786DD3B26D12D1800409285 /* RedViewController.swift in Sources */,
 				4786DD2926D12B8600409285 /* SceneDelegate.swift in Sources */,
+				4786DD4426D135A900409285 /* Slider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +395,7 @@
 		};
 		4786DD3826D12B8700409285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8CC94CF5F03AE0DAC1A4FC /* Pods-Kadai8-MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +409,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyohei.Kadai8-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4786DD3926D12B8700409285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219EC07B52A8EFD4446C8FAF /* Pods-Kadai8-MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyohei.Kadai8-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
