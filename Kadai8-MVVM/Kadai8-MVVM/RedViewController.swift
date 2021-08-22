@@ -14,8 +14,7 @@ final class RedViewController: UIViewController {
     @IBOutlet private weak var numberLabel: UILabel!
     @IBOutlet private weak var slider: UISlider!
 
-    let model: SliderModel = Slider()
-    private lazy var viewModel: RedViewModelType = RedViewModel(model: model)
+    private let viewModel: ViewModelType = ViewModel(valueUseCase: ModelLocator.shared.valueUseCase)
     private let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
@@ -26,21 +25,26 @@ final class RedViewController: UIViewController {
     private func setupBinding() {
         slider.rx.value
             .subscribe(onNext: { [weak self] value in
-                self?.viewModel.input.changedNum(num: value)
+                self?.viewModel.inputs.sliderValueDidChanged(value: value)
             })
             .disposed(by: disposeBag)
 
-        viewModel.output.driver
-            .drive(onNext: { [weak self] num in
-                let stringNum = String(num)
-                self?.numberLabel.text = stringNum
+        viewModel.outputs.event
+            .drive(onNext: { [weak self] event in
+                switch event {
+                case .changeSliderValue(let value):
+                    self?.slider.value = value
+                }
             })
+            .disposed(by: disposeBag)
+
+        viewModel.outputs.numbetText
+            .drive(numberLabel.rx.text)
             .disposed(by: disposeBag)
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        numberLabel.text = String(viewModel.output.num)
-        slider.value = viewModel.output.num
+        viewModel.inputs.viewWillAppear()
     }
 }

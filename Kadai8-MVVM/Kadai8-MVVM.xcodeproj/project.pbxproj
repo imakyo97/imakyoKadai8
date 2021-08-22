@@ -16,9 +16,9 @@
 		4786DD3B26D12D1800409285 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD3A26D12D1800409285 /* RedViewController.swift */; };
 		4786DD4026D12E2500409285 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD3F26D12E2500409285 /* GreenViewController.swift */; };
 		4786DD4226D12E3C00409285 /* GreenVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4786DD4126D12E3C00409285 /* GreenVC.storyboard */; };
-		4786DD4426D135A900409285 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4326D135A900409285 /* Slider.swift */; };
-		4786DD4626D1367D00409285 /* RedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4526D1367D00409285 /* RedViewModel.swift */; };
-		4786DD4826D1429800409285 /* GreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4726D1429800409285 /* GreenViewModel.swift */; };
+		4786DD4A26D214CE00409285 /* ValueUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4926D214CE00409285 /* ValueUseCase.swift */; };
+		4786DD4C26D2167400409285 /* ModelLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4B26D2167400409285 /* ModelLocator.swift */; };
+		4786DD4E26D217A100409285 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DD4D26D217A100409285 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,9 @@
 		4786DD3A26D12D1800409285 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		4786DD3F26D12E2500409285 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		4786DD4126D12E3C00409285 /* GreenVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GreenVC.storyboard; sourceTree = "<group>"; };
-		4786DD4326D135A900409285 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
-		4786DD4526D1367D00409285 /* RedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewModel.swift; sourceTree = "<group>"; };
-		4786DD4726D1429800409285 /* GreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewModel.swift; sourceTree = "<group>"; };
+		4786DD4926D214CE00409285 /* ValueUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueUseCase.swift; sourceTree = "<group>"; };
+		4786DD4B26D2167400409285 /* ModelLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLocator.swift; sourceTree = "<group>"; };
+		4786DD4D26D217A100409285 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		7C8CC94CF5F03AE0DAC1A4FC /* Pods-Kadai8-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai8-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-Kadai8-MVVM/Pods-Kadai8-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		EB45403B5440DF1DC1EE8A71 /* Pods_Kadai8_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai8_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,7 +96,8 @@
 		4786DD3C26D12D2D00409285 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4786DD4326D135A900409285 /* Slider.swift */,
+				4786DD4926D214CE00409285 /* ValueUseCase.swift */,
+				4786DD4B26D2167400409285 /* ModelLocator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,8 +116,7 @@
 		4786DD3E26D12D9400409285 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				4786DD4526D1367D00409285 /* RedViewModel.swift */,
-				4786DD4726D1429800409285 /* GreenViewModel.swift */,
+				4786DD4D26D217A100409285 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -245,13 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4786DD4826D1429800409285 /* GreenViewModel.swift in Sources */,
-				4786DD4626D1367D00409285 /* RedViewModel.swift in Sources */,
+				4786DD4C26D2167400409285 /* ModelLocator.swift in Sources */,
+				4786DD4E26D217A100409285 /* ViewModel.swift in Sources */,
 				4786DD4026D12E2500409285 /* GreenViewController.swift in Sources */,
+				4786DD4A26D214CE00409285 /* ValueUseCase.swift in Sources */,
 				4786DD2726D12B8600409285 /* AppDelegate.swift in Sources */,
 				4786DD3B26D12D1800409285 /* RedViewController.swift in Sources */,
 				4786DD2926D12B8600409285 /* SceneDelegate.swift in Sources */,
-				4786DD4426D135A900409285 /* Slider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
